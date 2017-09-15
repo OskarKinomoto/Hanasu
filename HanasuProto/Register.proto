@@ -1,0 +1,19 @@
+syntax = "proto3";
+package Hanasu;
+
+message RegisterRequest {
+    string nick = 1;
+    string userName = 2;
+    string pass = 3;
+}
+
+message RegisterResponse {
+    enum RegisterCode {
+        SUCCESS = 0;
+        USER_NAME_EXISTS = 1;
+        PASSWORD_TOO_SHORT = 2;
+        NICK_NAME_TOO_LONG = 3;
+    }
+    
+    RegisterCode code = 1;
+}

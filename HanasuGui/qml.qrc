@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>Conv.qml</file>
+        <file>ConvDel.qml</file>
+        <file>Circle.qml</file>
+        <file>Alert.qml</file>
+        <file>WaitPopup.qml</file>
+        <file>MsgsDel.qml</file>
+        <file>NewMsg.qml</file>
+        <file>AddFriendPopup.qml</file>
+        <file>FriendList.qml</file>
+        <file>Register.qml</file>
+        <file>Placeholder.qml</file>
+        <file>Menubar.qml</file>
+        <file>Icon.js</file>
+        <file>MaterialButton.qml</file>
+    </qresource>
+</RCC>
